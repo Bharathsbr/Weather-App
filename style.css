@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ghostwhite;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wform
+{
+    margin: 20px;
+}
+
+.cityinput
+{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button[type="submit"]
+{
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color:rgb(36, 191, 77);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover
+{
+    background-color:rgb(63, 240, 110) ;
+}
+
+p{
+    align-items: center;
+}
+.card
+{
+    background: linear-gradient(180deg,rgb(175, 178, 241),rgb(244, 206, 137));
+    padding: 60px;
+    font-size: 1.5rem;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    align-items: center;
+
+}
+
+.city
+{
+    margin-top: 0%;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.temp
+{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hum
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.wth
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.emoji
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10rem;
+}
+.error
+{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
